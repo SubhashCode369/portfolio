@@ -1,7 +1,40 @@
-h1 {
+*{ margin: 0;
+    padding: 0;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ box-sizing: border-box;
+}
+ 
+*html,body{
+width: 100%;
+height: 100%;
+ }
+
+*h1 {
  color: rgb(152, 89, 211);   
 }
 
-nav {
-    
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: color #f3f3f3;;
+width:100% 
+}
+
+aside{
+    padding: 20px;
+    background-color:# whitesmoke;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    top:50%;
+    transform: translate(0, -50%);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    background-color: whitesmoke;
 }
